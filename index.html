@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Freelancer</title>
     <!-- Links de las fuentes -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <!-- Links de los iconos -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
+    <!-- Links de los iconos -->
     <link rel="stylesheet" href="assets/icons/font-awesome/css/font-awesome.min.css">
     <!-- Hoja de estilos -->
     <link rel="stylesheet" href="css/main.css">
@@ -15,18 +15,16 @@
   <body>
 
     <header>
-      <nav>
-        <div class="container">
-          <a href="#">Start Bootstrap</a>
-          <div class="menu">
-            <ul>
-              <li>portfolio</li>
-              <li>about</li>
-              <li>contact</li>
-            </ul>
-          </div>
+      <div class="container">
+        <a href="#" class="text-montserrat text-uppercase" >Start Bootstrap</a>
+        <div class="menu">
+          <ul class="text-uppercase text-montserrat">
+            <li>portfolio</li>
+            <li>about</li>
+            <li>contact</li>
+          </ul>
         </div>
-      </nav>
+      </div>
     </header>
 
     <section id="home">
@@ -35,18 +33,19 @@
           <img src="assets/images/profile.png" alt="profile freelancer">
         </figure>
         <div class="texto-home">
-          <span>Start Bootstrap</span>
-          <hr class="fa fa-star white" aria-hidden="true"></hr>
-          <span class="skills">
+          <span class="text-montserrat text-uppercase title-home">Start Bootstrap</span>
+          <hr class="star-white"></hr>
+          <span class="skills text-lato">
             Web Developer - Graphic Artist - User Experience - Desginer
           </span>
         </div>
       </div>
+    </section>
 
-    </section id="portfolio">
+    <section id="portfolio">
       <div class="container">
-        <h2 class="section-title">portfolio</h2>
-        <hr class="fa fa-star color" aria-hidden="true"></hr>
+        <h2 class="section-title text-montserrat text-uppercase">portfolio</h2>
+        <hr class="star-dark" aria-hidden="true"></hr>
         <div class="images-portfolio">
           <figure>
             <img src="assets/images/portfolio/cabin.png" alt="cabin">
@@ -62,46 +61,49 @@
 
     <section id="about">
       <div class="container">
-        <h2 class="section-title">About</h2>
-        <hr class="fa fa-star white"></hr>
-        <div class="group-text">
-          <div><p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p></div>
-          <div><p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p></div>
-          <div><a href="#">
-            <i class="fa fa-download"></i>Download Theme</a></div>
+        <h2 class="section-title text-montserrat text-uppercase">About</h2>
+        <hr class="star-white"></hr>
+        <div class="group-text text-lato">
+          <div class="primero"><p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p></div>
+          <div class="segundo"><p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p></div>
         </div>
+        <div class="btn">
+          <a href="#" class="text-lato">Download Theme</a>
+        </div>
+
+
       </div>
     </section>
 
-    <section id="Contact-me">
+    <section id="contact-me">
       <div class="container">
-        <h2 class="section-title">
+        <h2 class="section-title text-montserrat text-uppercase">
           Contact Me
         </h2>
-        <hr class="fa fa-star color" aria-hidden="true"></hr>
+        <hr class="star-dark" aria-hidden="true"></hr>
         <div class="datos-user">
-          <div class="form-name">
+          <div class="form-name text-lato box">
             <span>Name</span>
             <input type="text" placeholder="Name">
           </div>
 
-          <div class="form-email">
+          <div class="form-email text-lato box">
             <span>Email-addres</span>
             <input type="text" placeholder="email-addres">
           </div>
 
-          <div class="form-phone-number">
+          <div class="form-phone-number text-lato box">
             <span>Phone number</span>
             <input type="text" placeholder="phone-number">
           </div>
 
-          <div class="form-message">
+          <div class="form-message text-lato box">
             <span>Message</span>
             <input type="text" placeholder="message">
           </div>
           <br>
-          <div class="send">
-            <span>send</span>
+          <div class="send text-lato box">
+            <span>Send</span>
             <input type="text" placeholder="message">
           </div>
         </div>

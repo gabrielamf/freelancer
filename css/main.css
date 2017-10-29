@@ -1,3 +1,286 @@
-/*
- * Estilos de tu proyecto
- */
+ /* Resetear mi còdigo */
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ /* Clase reutilizables */
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.star-white:after {
+  content: '\f005';
+  font-family: FontAwesome;
+  font-size: 32px;
+  position: relative;
+  top: -.6em;
+  padding: 0 8px;
+  color: #fff;
+  background-color: #28BB9C;
+}
+
+.star-dark:after {
+  content: '\f005';
+  font-family: FontAwesome;
+  font-size: 32px;
+  position: relative;
+  top: -.6em;
+  padding: 0 8px;
+  color: #2D3F50;
+  background-color: #fff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 48px;
+  text-align: center;
+}
+
+
+ /* header*/
+
+header {
+  background-color: #2D3F50;
+  width: 100%;
+  padding: 25px 16px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+
+header div.container a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 32px;
+  display: inline-block;
+  /*outline: 1px solid yellow;*/
+  padding: 10px 0;
+}
+
+div.menu {
+  float: right;
+}
+
+div.container div.menu ul li {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  list-style: none;
+  display: inline-block;
+  padding: 18px 8px;
+}
+
+ /* home */
+
+#home {
+  background: #28BB9C;
+  text-align: center;
+  color: #fff;
+  margin-top: 109px;
+  padding-top: 92px;
+  padding-bottom: 100px;
+}
+
+#home img {
+  width: 256px;
+  margin: 0 auto 20px auto;
+}
+
+.title-home {
+  font-size: 76px;
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#home hr.star-white {
+  height: 0;
+  overflow: visible;
+  max-width: 250px;
+  margin: 25px auto;
+  border-top: 5px solid;
+  color: #fff;
+}
+
+span.skills {
+  font-size: 28px;
+}
+
+ /* portfolio */
+
+#portfolio {
+  background-color: #fff;
+  padding: 100px 0;
+  color: #212529;
+  text-align: center;
+}
+
+
+#portfolio hr.star-dark {
+  height: 0;
+  overflow: visible;
+  max-width: 250px;
+  margin: 25px auto;
+  border-top: 5px solid;
+  color: #2D3F50;
+}
+
+div.images-portfolio img {
+  float: left;
+  max-width: 33.3%;
+  padding: 0 15px;
+  margin: 0 0 30px;
+}
+
+ /* about */
+
+#about {
+  background-color: #28BB9C;
+  padding: 100px 0;
+  color: #fff;
+}
+
+#about div.container {
+  text-align: center;
+}
+
+#about hr.star-white {
+  height: 0;
+  overflow: visible;
+  max-width: 250px;
+  margin: 25px auto;
+  border-top: 5px solid;
+  color: #fff;
+}
+
+.group-text {
+  outline: 1px solid red;
+  overflow: auto;
+  margin-top: 10px;
+  margin-bottom: 36px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.group-text div.primero {
+  width: 370px;
+  float: left;
+  text-align: left;
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 30px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.group-text div.segundo {
+  width: 370px;
+  float: left;
+  padding-left: 15px;
+  text-align: left;
+
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto;
+}
+
+}
+.group-text div p{
+  font-size: 20px;
+  margin-bottom: 16px;
+  text-align: left;
+  line-height: 30px;
+}
+
+
+div.btn a:before{
+  content: "\f019";
+  font-family: FontAwesome;
+  padding: 0 5px;
+}
+
+div.btn {
+  margin-bottom: 10px;
+}
+
+div.btn a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 8px 16px;
+}
+
+ /* contact-me */
+
+#contact-me {
+  background-color: #fff;
+  padding: 100px 0;
+  color: #212529;
+  text-align: center;
+
+}
+
+#contact-me .container{
+  background-color: #fff;
+  padding: 100px 0;
+  color: #212529;
+  text-align: center;
+}
+
+#contact-me hr.star-dark {
+  height: 0;
+  overflow: visible;
+  max-width: 250px;
+  margin: 25px auto;
+  border-top: 5px solid;
+  color: #2D3F50;
+}
+
+.datos-user {
+  text-align: left;
+}
+
+.datos-user .box {
+  text-align: left;
+  padding: 40px 0;
+  border-bottom: 1px solid #868E95;
+}
+
+.datos-user div span {
+  font-size: 24px;
+  color: #868E95;
+  font-weight: normal;
+}
+
+.datos-user div input {
+  outline: none;
+
+}
