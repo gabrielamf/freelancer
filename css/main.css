@@ -248,12 +248,6 @@ div.btn a{
 
 }
 
-#contact-me .container{
-  background-color: #fff;
-  padding: 100px 0;
-  color: #212529;
-  text-align: center;
-}
 
 #contact-me hr.star-dark {
   height: 0;
@@ -266,21 +260,149 @@ div.btn a{
 
 .datos-user {
   text-align: left;
+  width: 53%;
+  text-align: center;
+  margin: 0 auto;
+
 }
 
 .datos-user .box {
   text-align: left;
-  padding: 40px 0;
-  border-bottom: 1px solid #868E95;
+  padding: 35px 0;
+  border-bottom: .5px solid #eceeee;
 }
 
-.datos-user div span {
+.datos-user div input.placeholder {
   font-size: 24px;
-  color: #868E95;
   font-weight: normal;
+  padding: 10px 0;
 }
 
 .datos-user div input {
   outline: none;
+  border: none;
+  font-size: 24px;
+}
 
+.datos-user div.form-message {
+  text-align: left;
+  padding: 35px 0 148px 0;
+}
+
+.datos-user div button {
+  background-color: #18bc9c;
+  padding: 15px 15px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  float: left;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+/* social-media */
+
+#social-media {
+ background-color: #2C3E50;
+ padding: 50px 0 30px 0;
+ color: #fff;
+}
+
+
+/* primer footer */
+.first-footer {
+  width: 87%;
+  margin: 0 auto;
+}
+
+/* primera columna */
+.first-footer .left-col {
+  float: left;
+  outline: 1px solid white;
+  color: #fff;
+  width: 33%;
+  padding: 0 16px;
+  margin-bottom: 50px;
+}
+
+.title-social-media {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.subtitle-social-media {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 30px;
+  line-height: 32px;
+}
+
+/* segunda columna */
+
+.first-footer .center-col {
+  float: left;
+  outline: 1px solid white;
+  color: #fff;
+  width: 33%;
+  padding: 0 16px;
+  margin-bottom: 50px;
+}
+
+.center-col ul {
+  list-style: none;
+}
+
+.center-col ul li {
+  outline: 1px solid yellow;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+}
+
+.btn-social-media {
+  color: #fff;
+  text-align: center;
+}
+
+
+.btn-social-media i {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border: 2px solid #fff;
+  margin: 15px 10px;
+  border-radius: 50%;
+  line-height: 45px;
+  box-sizing: border-box;
+}
+
+.first-footer .right-col {
+  float: left;
+  outline: 1px solid white;
+  color: #fff;
+  text-align: center;
+  width: 33%;
+  padding: 0 16px;
+  margin-bottom: 50px;
+}
+
+.first-footer .right-col span {
+  color: #28BB9C;
+}
+
+/* segundo footer */
+
+.second-footer p {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
 }
