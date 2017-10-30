@@ -8,7 +8,6 @@
   /* Clase reutilizables */
 
   body {
-    font-size: 16px;
     margin: 0 auto;
   }
 
@@ -319,7 +318,7 @@
   /* primer footer */
   .first-footer {
     margin: 0 auto;
-    width: 87%;
+    width: 92%;
   }
 
   /* primera columna */
@@ -361,7 +360,7 @@
     font-size: 20px;
     height: 50px;
     line-height: 45px;
-    margin: 15px 10px;
+    margin: 15px 3px;
     width: 50px;
   }
 
